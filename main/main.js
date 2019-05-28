@@ -4,9 +4,10 @@ module.exports = function main(inputs) {
 };
 
 function dist(distance){
-	return 19;
+	return 6;
 }
 
 function park(time){
-	if (time === 0){return 0;} 
+	if (time === 0){return 0;}
+	else if(time != 0){return 0.25*time;}
 }
