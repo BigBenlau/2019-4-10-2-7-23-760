@@ -10,6 +10,5 @@ function dist(distance){
 }
 
 function park(time){
-	if (time === 0){return 0;}
-	else if(time != 0){return 0.25*time;}
+	return 0.25*time;
 }
