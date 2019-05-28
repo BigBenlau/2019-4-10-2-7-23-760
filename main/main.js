@@ -4,7 +4,7 @@ module.exports = function main(inputs) {
 };
 
 function dist(distance){
-	return 6;
+	if(distance <= 2){return 6;}
 }
 
 function park(time){
